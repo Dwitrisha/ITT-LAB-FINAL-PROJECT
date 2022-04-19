@@ -1,0 +1,21 @@
+#login-form{
+    background-color: white;
+    border-radius: 10px;
+    width: 30vw;
+    height:80vh;
+    margin-top: 7vh;
+    padding: 1rem;
+    box-shadow: 2px 2px 4px grey;
+    margin-bottom: 3rem;
+    
+    }
+    
+    .text{
+      border: solid rgb(38, 4, 113) 2px;
+      background-color: rgba(26, 26, 27, 0.185);
+      border-radius: 5px;
+      height: 1.5rem;
+      margin: 0.3rem;
+      width:60%;
+    }
+    

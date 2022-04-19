@@ -22,14 +22,13 @@ function Sentiment_Analysis() {
   if (result.score > 0) var type = "Positive";
   if (result.score === 0) var type = "Neutral";
   if (result.score < 0) var type = "Negative";
-  alert(result.score);
-  alert(Array.from(emojiset));
-   //setInput("");
 
-    db.collection("sentiments").add({
+  
+    db.collection("users").doc("JgEbNMjEQi0z4OgOYDwu").collection("sentiments").add({
       daily_sentiments: Array.from(emojiset),
       score: result.score,
       datetime: firebase.firestore.FieldValue.serverTimestamp(),
+      text:document.getElementById("journal").value,
     })
  
 }

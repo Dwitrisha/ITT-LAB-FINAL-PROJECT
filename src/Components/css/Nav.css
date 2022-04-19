@@ -1,0 +1,48 @@
+#nav-container {
+    display: flex;
+    z-index: 10000000;
+  }
+  
+  #show-info {
+    margin-top: 1rem;
+  }
+  .nav-btn {
+    display: block;
+    width: 90%;
+    height: 35px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #802ec4, #3d0c65,#56039a);
+    background-size: 200%;
+    font-size: 0.8rem;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    margin: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  .nav-btn:hover {
+    background-position: right;
+  }
+  
+  .active {
+    display: block;
+    width: 90%;
+    height: 35px;
+    border-radius: 25px;
+    border: solid 1px #802ec4;
+    background-image: linear-gradient(to right, #eae6f7, #e9e3ff, #f5f1ff);
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #802ec4;
+    font-family: "Poppins", sans-serif;
+    margin: 1.5rem;
+    cursor: pointer;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  

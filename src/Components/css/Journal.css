@@ -236,13 +236,12 @@ width:80%;
 .submits {
 
 display: inline-block;
-float: center;
 text-align: center;
 display: inline-block;
-
+margin-top: 0.5rem;
 
 width: 150px;
-height: 50px;
+height: 40px;
 
 background: #fff;
 border-radius: 5px;
@@ -259,7 +258,7 @@ letter-spacing: 0.05em;
 color:white;
 background: #946efd;
 margin-bottom: 3rem;
-font-size: 1.4rem;
+font-size: 1.2rem;
 }
 
 .submits:hover{
